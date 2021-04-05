@@ -1,0 +1,67 @@
+:root {
+  --dark-blue: #011F23;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header nav {
+  background: var(--dark-blue);
+  height: 4.5rem;
+}
+
+header nav .container {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem 0;
+}
+
+header nav a {
+  text-transform: uppercase;
+  color: white;
+}
+
+header nav a:hover {
+  color: #D92B04;
+}
+
+section.hero {
+  background: #d92b04;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(217, 43, 4, 0.809961)), color-stop(60%, #951e03), to(#6d1602)), url("../assets/images/hero_laptop_img.png");
+  background: linear-gradient(90deg, rgba(217, 43, 4, 0.809961) 0%, #951e03 60%, #6d1602 100%), url("../assets/images/hero_laptop_img.png");
+  height: 600px;
+  background-size: cover;
+  color: white;
+}
+
+section.hero .container {
+  padding-top: 7rem;
+}
+
+section.hero .container .headline {
+  width: 20rem;
+  float: right;
+}
+
+section.hero .container .headline h1 {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+section.hero .container .headline p {
+  margin-bottom: 4rem;
+}
+
+section.hero .container .headline a {
+  margin-left: 4rem;
+  border: white solid 3px;
+  border-radius: 2rem;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: .5rem 2rem;
+}
+/*# sourceMappingURL=style.css.map */
